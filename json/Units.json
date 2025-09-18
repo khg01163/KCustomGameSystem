@@ -7,7 +7,6 @@
 		"strength": 10,
 		"cost": 490,
 		"requiredTech": "Dynamite",
-		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
   {
@@ -17,86 +16,74 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
-		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
   	{
 		"name": "Machine Gun",//경기
-		"unitType": "Range",
+		"unitType": "MachineGun",
 		"range": 1,
 		"movement": 2,
-		"strength": 60,
-		"rangedStrength": 60,
-		"cost": 350,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"strength": 75,
+		"rangedStrength": 4,
+		"cost": 200,
+		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 	},
   {
-    "name": "Gatling Gun",//기
-		"unitType": "Ranged Gunpowder",
-		"range": 1,
+        "name": "Gatling Gun",//기
+		"unitType": "MachineGun",
+		"range": 2,
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
+		"strength": 75,
+		"rangedStrength": 5,
+		"cost": 285,
+		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
-		"unitType": "Gunpowder",
+		"unitType": "MachineGun",
 		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"strength": 80,
+	    "rangedStrength": 8,
+	    "Range": 3,
+		"cost": 515,
+		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
 {
 		"name": "Minuteman",//전차형 경기
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "America",
+		"unitType": "MachineGun",
 		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": ["Ignores terrain cost"],
+		"strength": 50,
+	    "rangedStrength": 4,
+	    "Range": 1,
+		"cost": 285,
+		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
   {
 		"name": "War Chariot",//전차형기
-		"unitType": "Archery",
-		"uniqueTo": "Egypt",
-		"replaces": "Chariot Archer",
+		"unitType": "MachineGun",
+	    "Range": 2,
 		"movement": 5,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "arrow"
+		"strength": 50,
+		"rangedStrength": 5,
+		"cost": 380,
+		"requiredTech": "Dynamite",
+		"attackSound": "Machinegun"
 	},
   	{
 		"name": "Mechanized Infantry",//전차 중기
-		"unitType": "Gunpowder",
+		"unitType": "MachineGun",
 		"movement": 3,
-		"strength": 90,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"strength": 50,
+		"rangedStrength": 9,
+		"Range": 3,
+		"cost": 900,
+		"requiredTech": "Dynamite",
+		"attackSound": "Machinegun"
 	},
   {
 		"name": "Artillery",//155
