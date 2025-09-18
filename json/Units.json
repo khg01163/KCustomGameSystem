@@ -2,29 +2,27 @@
   //소대 유닛
   {
     "name": "Great War Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
+		"strength": 10,
+		"cost": 490,
+		"requiredTech": "Dynamite",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
   {
 		"name": "Infantry",//중대
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
+		"strength": 35,
+		"cost": 1700,
+		"requiredTech": "Dynamite",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
   	{
 		"name": "Machine Gun",//경기
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Range",
 		"range": 1,
 		"movement": 2,
 		"strength": 60,
