@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Infantry",
+    "movementType": "Land"
+  },
+  {
+    "name": "MachineGun",
+    "movementType": "Land"
+  },
+  {
+    "name": "Flight",
+    "movementType": "Land",
+    "uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+  },
+  {
+    "name": "Bomber",
+    "movementType": "Land",
+    "uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+  },
+  {
+    "name": "Canon",
+    "movementType": "Land"
+  },
+  {
+    "name": "MovingCanon",
+    "movementType": "Land"
+  },
+  {
+    "name": "AntiCanon",
+    "movementType": "Land"
+  }
+  {
+    "name": "Tank",
+    "movementType": "Land"
+  }
+]
