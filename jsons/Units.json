@@ -110,7 +110,7 @@
 	},
   {
 		"name": "Panzer",//105미리
-		"unitType": "MoveingCanon",
+		"unitType": "MovingCanon",
 		"movement": 6,
 	    "Range": 7,
 		"strength": 70,
