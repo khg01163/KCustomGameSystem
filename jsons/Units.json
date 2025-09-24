@@ -191,7 +191,7 @@
 	    "Range": 4,
 	    "rangedStrength": 30,
 		"cost": 7430,
-	    "requiredResource":"Aluminum: 3",
+	    "requiredResource":"Aluminum:3",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
