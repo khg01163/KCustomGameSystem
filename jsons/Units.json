@@ -121,7 +121,7 @@
 	},
   {
 		"name": "Cannon",//105
-		"unitType": "canon",
+		"unitType": "Canon",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 22,
