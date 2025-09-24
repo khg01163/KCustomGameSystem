@@ -29,7 +29,7 @@
 		"strength": 75,
 		"rangedStrength": 4,
 		"cost": 200,
-		"requiredResource":"Iron",
+		"requiredResource":"Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
@@ -54,7 +54,7 @@
 	    "rangedStrength": 8,
 	    "Range": 3,
 		"cost": 515,
-	    "requiredResource": "Iron:3",
+	    "requiredResource": "Aluminum",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -115,7 +115,7 @@
 		"rangedStrength": 22,
 		"cost": 1830,
 	    "Range": 5,
-	    "requiredResource": "Coal:2",
+	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "cannon"
 	},
@@ -199,7 +199,7 @@
 		"rangedStrength": 45,
 		"range": 2,
 		"cost": 14300,
-	    "requiredResource":"Oil",
+	    "requiredResource":"Uranium",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -235,7 +235,7 @@
 		"rangedStrength": 38,
 		"range": 2,
 		"cost": 4100,
-	    "requiredResource":"Oil",
+	    "requiredResource":"Oil:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	}
