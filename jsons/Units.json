@@ -16,8 +16,8 @@
 		"movement": 1,
 		"strength": 35,
 		"cost": 1700,
+	    "requiredResource":"Horses",
 		"requiredTech": "Dynamite",
-	    "requiredResource": "Horses",
 		"attackSound": "shot",
 	    "uniques": ["[+500]% Strength <vs [Canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
 	},
@@ -25,7 +25,7 @@
 		"name": "Machine Gun",//경기
 		"unitType": "MachineGun",
 		"range": 1,
-		"movement": 2,
+		"movement":1,
 		"strength": 75,
 		"rangedStrength": 4,
 		"cost": 200,
@@ -38,11 +38,10 @@
 		"unitType": "MachineGun",
 		"range": 2,
 		"movement": 1,
-	    "movementCooldown":1,
 		"strength": 75,
 		"rangedStrength": 5,
-	    "requiredResource": "Iron",
 		"cost": 285,
+	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -50,7 +49,6 @@
 		"name": "Anti-Aircraft Gun",//중기
 		"unitType": "MachineGun",
 		"movement": 1,
-	    "movementCooldown":1,
 		"strength": 80,
 	    "rangedStrength": 8,
 	    "Range": 3,
@@ -98,7 +96,6 @@
 		"name": "Artillery",//155
 		"unitType": "Canon",
 		"movement": 1,
-	    "movementCooldown":2,
 		"strength": 90,
 		"rangedStrength": 45,
 		"range": 10,
@@ -112,7 +109,6 @@
 		"name": "Cannon",//105
 		"unitType": "Siege",
 		"movement": 1,
-	    "movementCooldown":1,
 		"strength": 45,
 		"rangedStrength": 22,
 		"cost": 1830,
@@ -149,7 +145,6 @@
      	"name": "Anti-Tank Gun",//90대전차
 		"unitType": "AntiCanon",
 		"movement": 1,
-	    "movementCooldown":1,
 		"strength": 70,
 	    "Range": 3,
 	    "rangedStrength": 32,
