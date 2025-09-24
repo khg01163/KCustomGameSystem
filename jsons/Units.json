@@ -210,7 +210,7 @@
 		"rangedStrength": 175,
 		"range": 0,
 		"cost": 37150,
-	    "requiredResource": "Uranium:2, Aluminum:2",
+	    "requiredResource": {"Uranium:2", "Aluminum:2"},
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -222,7 +222,7 @@
 		"rangedStrength": 95,
 		"range": 0,
 		"cost": 18800,
-	    "requiredResource":"Aluminum, Oil:2",
+	    "requiredResource":{"Aluminum", "Oil:2"},
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -234,7 +234,7 @@
 		"rangedStrength": 38,
 		"range": 2,
 		"cost": 4100,
-	    "requiredResource":"Aluminum, Oil",
+	    "requiredResource":{"Aluminum", "Oil"},
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	}
