@@ -16,7 +16,7 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
-	    "requiredResource": "Iron",
+	    "requiredResource": "Horses:2",
 		"attackSound": "shot"
 	},
   	{
