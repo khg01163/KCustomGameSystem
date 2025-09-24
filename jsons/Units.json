@@ -17,7 +17,7 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
-	    "requiredResource": "Horses":2
+	    "requiredResource": "Horses":2,
 		"attackSound": "shot",
 	    "uniques": ["[+500]% Strength <vs [canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
 	},
