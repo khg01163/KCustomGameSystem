@@ -39,7 +39,7 @@
 		"unitType": "MachineGun",
 		"range": 2,
 		"movement": 1,
-	    "movementCooldown":1,
+	    "movementCooldown":2,
 		"strength": 75,
 		"rangedStrength": 5,
 		"cost": 285,
