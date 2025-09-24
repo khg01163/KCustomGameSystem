@@ -6,6 +6,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 490,
+	    "
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
@@ -16,6 +17,7 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
+	    "requiredResource": "Horses",
 		"attackSound": "shot"
 	},
   	{
