@@ -17,7 +17,7 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
-	    "requiredResource": {"Horses:2"},
+	    "requiredResource": "Horses",
 		"attackSound": "shot",
 	    "uniques": ["[+500]% Strength <vs [Canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
 	},
@@ -55,7 +55,7 @@
 	    "rangedStrength": 8,
 	    "Range": 3,
 		"cost": 515,
-	    "requiredResource": {"Iron, Aluminum"},
+	    "requiredResource": "Aluminum",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -67,7 +67,6 @@
 	    "rangedStrength": 4,
 	    "Range": 1,
 		"cost": 285,
-	    "requiredResource": "Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
@@ -80,7 +79,7 @@
 		"rangedStrength": 5,
 		"cost": 380,
 		"requiredTech": "Dynamite",
-	    "requiredResource": {"Horses, Iron"},
+	    "requiredResource": "Horses",
 		"attackSound": "Machinegun"
 	},
   	{
@@ -91,7 +90,7 @@
 		"rangedStrength": 9,
 		"Range": 3,
 		"cost": 900,
-		"requiredResource": {"Horses, Iron:2"},
+		"requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"attackSound": "Machinegun"
 	},
@@ -104,7 +103,7 @@
 		"rangedStrength": 45,
 		"range": 10,
 		"cost": 4000,
-	    "requiredResource": {"Coal:2"},
+	    "requiredResource": "Aluminum",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -130,7 +129,7 @@
 		"strength": 70,
 	    "rangedStrength":22,
 		"cost": 4970,
-	    "requiredResource": {"Oil:2"},
+	    "requiredResource": "Oil",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -155,7 +154,7 @@
 	    "Range": 3,
 	    "rangedStrength": 32,
 		"cost": 1140,
-	    "requiredResource": {"Iron, Coal, Horses"},
+	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -166,7 +165,7 @@
 		"strength": 35,
 	    "Range": 2,
 	    "rangedStrength": 16,
-	    "requiredResource": {"Coal, Horses"},
+	    "requiredResource": "Iron",
 		"cost": 570,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
@@ -179,7 +178,7 @@
 		"rangedStrength": 14,
 		"Range": 3,
 		"cost": 2860,
-		"requiredResource":"Aluminum",
+		"requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -191,7 +190,7 @@
 	    "Range": 4,
 	    "rangedStrength": 30,
 		"cost": 7430,
-	    "requiredResource":{"Aluminum:3"},
+	    "requiredResource":"Aluminum",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -203,7 +202,7 @@
 		"rangedStrength": 45,
 		"range": 2,
 		"cost": 14300,
-	    "requiredResource":{"Oil:2, Aluminum"},
+	    "requiredResource":"Uranium",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -215,7 +214,7 @@
 		"rangedStrength": 175,
 		"range": 0,
 		"cost": 37150,
-	    "requiredResource": {"Oil:2, Aluminum:3"},
+	    "requiredResource": "Uranium",
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -227,7 +226,7 @@
 		"rangedStrength": 95,
 		"range": 0,
 		"cost": 18800,
-	    "requiredResource":{"Oil, Aluminum:2"},
+	    "requiredResource":"Aluminum",
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -239,7 +238,7 @@
 		"rangedStrength": 38,
 		"range": 2,
 		"cost": 4100,
-	    "requiredResource":{"Oil, Aluminum"},
+	    "requiredResource":"Aluminium",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	}
