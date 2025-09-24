@@ -22,12 +22,14 @@
   {
     "name": "Canon",
     "movementType": "Land",
-    "uniques":["[-1] Sight"]
+    "uniques":["[-1] Sight"],
+    "promotions": ["Indirect Fire"]
   },
   {
     "name": "MovingCanon",
     "movementType": "Land",
-    "uniques":["[-1] Sight"]
+    "uniques":["[-1] Sight"],
+    "promotions": ["Indirect Fire"]
   },
   {
     "name": "AntiCanon",
