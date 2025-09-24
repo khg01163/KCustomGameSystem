@@ -2,12 +2,12 @@
   {
     "name": "Infantry",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "Flight",
@@ -22,21 +22,21 @@
   {
     "name": "Canon",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "MovingCanon",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "AntiCanon",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "Tank",
     "movementType": "Land",
-    "uniques":"[-1] Sight"
+    "uniques":["[-1] Sight"]
   }
 ]
