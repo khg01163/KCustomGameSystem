@@ -126,7 +126,7 @@
 		"strength": 45,
 		"rangedStrength": 22,
 		"cost": 1830,
-	    "Range": 5,
+	    "range": 5,
 	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "cannon"
