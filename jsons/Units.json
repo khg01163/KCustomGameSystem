@@ -238,7 +238,7 @@
 		"rangedStrength": 38,
 		"range": 2,
 		"cost": 4100,
-	    "requiredResource":"Aluminium",
+	    "requiredResource":"Aluminum",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	}
