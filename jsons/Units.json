@@ -7,7 +7,8 @@
 		"strength": 10,
 		"cost": 490,
 		"requiredTech": "Dynamite",
-		"attackSound": "shot"
+		"attackSound": "shot",
+	    "uniques": ["[+500]% Strength <vs [MachineGun] units> <when attacking>", "[+500]% Strength <vs [canon] units> <when attacking>"]
 	},
   {
 		"name": "Infantry",//중대
@@ -16,8 +17,9 @@
 		"strength": 35,
 		"cost": 1700,
 		"requiredTech": "Dynamite",
-	    "requiredResource": {"Horses":2}
-		"attackSound": "shot"
+	    "requiredResource": "Horses":2
+		"attackSound": "shot",
+	    "uniques": ["[+500]% Strength <vs [canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
 	},
   	{
 		"name": "Machine Gun",//경기
