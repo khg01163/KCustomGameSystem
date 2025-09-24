@@ -211,7 +211,7 @@
 		"rangedStrength": 175,
 		"range": 0,
 		"cost": 37150,
-	    "requiredResource": {"Uranium:2", "Aluminum:2"},
+	    "requiredResource": "Uranium:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
