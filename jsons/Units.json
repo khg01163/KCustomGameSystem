@@ -1,5 +1,16 @@
 [
 	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Computers",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Paratrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
