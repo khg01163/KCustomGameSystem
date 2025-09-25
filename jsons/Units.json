@@ -255,7 +255,7 @@
 	},
   {
 		"name": "Bomber",//전폭
-		"unitType": "Bomber",
+		"unitType": "Bomb",
 		"movement": 6,
 		"strength": 160,
 		"rangedStrength": 175,
@@ -267,7 +267,7 @@
 	},
   {
 		"name": "Great War Bomber",//중폭
-		"unitType": "Bomber",
+		"unitType": "Bomb",
 		"movement": 7,
 		"strength": 40,
 		"rangedStrength": 95,
