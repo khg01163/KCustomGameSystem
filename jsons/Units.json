@@ -279,7 +279,7 @@
 	},
   {
 		"name": "Triplane",//그냥 전투기
-		"unitType": "Fighter",
+		"unitType": "Flight",
 		"movement": 8,
 		"strength": 12,
 		"rangedStrength": 38,
