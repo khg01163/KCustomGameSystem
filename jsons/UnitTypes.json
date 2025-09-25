@@ -7,7 +7,7 @@
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":["[-1] Sight"]
+    "uniques":["[-1] Sight", "[+500]% Strength <vs [Infantry] units> <when attacking>"]
   },
   {
     "name": "Flight",
