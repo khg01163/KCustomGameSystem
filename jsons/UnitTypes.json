@@ -12,7 +12,7 @@
   {
     "name": "Flight",
     "movementType": "Land",
-    "uniques": ["[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+    "uniques": ["[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
   },
   {
     "name": "Bomb",
