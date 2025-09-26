@@ -104,7 +104,8 @@
 		"cost": 285,
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+	    "uniques":["consumes [Aluminum] <when attacking>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
@@ -116,6 +117,7 @@
 		"cost": 515,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
+	    "uniques":["consumes [Aluminum:2] <when attacking>"],
 		"attackSound": "machinegun"
 	},
 {
