@@ -76,7 +76,7 @@
 		"movement": 1,
 		"strength": 35,
 		"cost": 1700,
-	    "requiredResource":"Horses:2",
+	    "requiredResource":"Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
 	    "uniques": ["[+500]% Strength <vs [Canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
@@ -89,7 +89,6 @@
 		"strength": 75,
 		"rangedStrength": 4,
 		"cost": 200,
-		"requiredResource":"Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
@@ -115,7 +114,7 @@
 	    "rangedStrength": 8,
 	    "range": 3,
 		"cost": 515,
-	    "requiredResource": "Aluminum",
+	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -127,7 +126,6 @@
 	    "rangedStrength": 4,
 	    "range": 1,
 		"cost": 285,
-	    "requiredResource": "Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
@@ -140,7 +138,7 @@
 		"rangedStrength": 5,
 		"cost": 380,
 		"requiredTech": "Dynamite",
-	    "requiredResource": "Horses:2",
+	    "requiredResource": "Horses",
 		"attackSound": "Machinegun"
 	},
   	{
@@ -151,7 +149,7 @@
 		"rangedStrength": 9,
 		"range": 3,
 		"cost": 900,
-		"requiredResource": "Iron:2",
+		"requiredResource": "Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "Machinegun"
 	},
@@ -163,7 +161,7 @@
 		"rangedStrength": 45,
 		"range": 10,
 		"cost": 4000,
-	    "requiredResource": "Aluminum:2",
+	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -188,7 +186,7 @@
 		"strength": 70,
 	    "rangedStrength":22,
 		"cost": 4970,
-	    "requiredResource": "Oil:2",
+	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -200,7 +198,7 @@
 	    "range": 7,
 	    "rangedStrength": 13,
 		"cost": 1940,
-	    "requiredResource": "Oil",
+	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -212,7 +210,7 @@
 	    "range": 3,
 	    "rangedStrength": 32,
 		"cost": 1140,
-	    "requiredResource": "Coal:2",
+	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -223,7 +221,6 @@
 		"strength": 35,
 	    "range": 2,
 	    "rangedStrength": 16,
-	    "requiredResource": "Coal",
 		"cost": 570,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
@@ -236,7 +233,7 @@
 		"rangedStrength": 14,
 		"range": 3,
 		"cost": 2860,
-		"requiredResource":"Aluminum",
+		"requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -248,7 +245,7 @@
 	    "range": 4,
 	    "rangedStrength": 30,
 		"cost": 7430,
-	    "requiredResource":"Aluminum:3",
+	    "requiredResource":"Iron:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -260,7 +257,7 @@
 		"rangedStrength": 45,
 		"range": 2,
 		"cost": 14300,
-	    "requiredResource":"Uranium",
+	    "requiredResource":"Coal",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	},
@@ -272,7 +269,7 @@
 		"rangedStrength": 175,
 		"range": 0,
 		"cost": 37150,
-	    "requiredResource": "Uranium:2",
+	    "requiredResource": "Coal:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -284,7 +281,6 @@
 		"rangedStrength": 95,
 		"range": 0,
 		"cost": 18800,
-	    "requiredResource":"Oil:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "bombing"
 	},
@@ -296,7 +292,6 @@
 		"rangedStrength": 38,
 		"range": 2,
 		"cost": 4100,
-	    "requiredResource":"Oil:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun"
 	}
