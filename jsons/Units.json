@@ -116,7 +116,7 @@
 	    "rangedStrength": 16,
 	    "range": 3,
 		"cost": 515,
-	    "requiredResource": "Coal",
+	    "requiredResource": "Aluminum",
 		"requiredTech": "Dynamite",
 		"uniques":["[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
@@ -131,6 +131,7 @@
 		"cost": 285,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
+	    "requiredResource":"Iron",
 		"uniques":["[+150]% Strength <vs [Infantry] units> <when defending>", "[+150]% Strength <vs [MachineGun] units> <when defending>"]
 	},
   {
@@ -142,7 +143,7 @@
 		"rangedStrength": 12,
 		"cost": 380,
 		"requiredTech": "Dynamite",
-	    "requiredResource": "Horses",
+	    "requiredResource": "Iron:2",
 		"uniques":["[+33]% Strength <vs [Infantry] units> <when defending>", "[+33]% Strength <vs [MachineGun] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
@@ -154,7 +155,7 @@
 		"rangedStrength": 16,
 		"range": 3,
 		"cost": 900,
-		"requiredResource": "Iron",
+		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
 		"uniques":["[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "Machinegun"
@@ -167,7 +168,7 @@
 		"rangedStrength": 75,
 		"range": 10,
 		"cost": 4000,
-	    "requiredResource": "Coal",
+	    "requiredResource": "Aluminum:2",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
 	    "uniques":["[-55]% Strength <when defending>"]
@@ -194,7 +195,7 @@
 		"strength": 38,
 	    "rangedStrength":38,
 		"cost": 4970,
-	    "requiredResource": "Coal",
+	    "requiredResource": "Aluminum:2",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -218,7 +219,7 @@
 	    "range": 3,
 	    "rangedStrength": 53,
 		"cost": 1140,
-	    "requiredResource": "Iron",
+	    "requiredResource": "Coal:2",
 		"requiredTech": "Dynamite",
 	    "uniques":["[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>"],
 		"attackSound": "machinegun"
@@ -231,6 +232,7 @@
 	    "range": 2,
 	    "rangedStrength": 30,
 		"cost": 570,
+	    "requiredResource":"Coal"
         "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <when defending>"],
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
@@ -243,7 +245,7 @@
 		"rangedStrength": 28,
 		"range": 3,
 		"cost": 2860,
-		"requiredResource":"Iron",
+		"requiredResource":"Aluminium",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -255,7 +257,7 @@
 	    "range": 4,
 	    "rangedStrength":50,
 		"cost": 7430,
-	    "requiredResource":"Iron:2",
+	    "requiredResource":"Aluminum:3",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -293,7 +295,7 @@
 		"rangedStrength": 108,
 		"range": 0,
 		"cost": 18800,
-	    "requiredResource": "Oil",
+	    "requiredResource": "Oil:2",
 		"requiredTech": "Dynamite",
 	    "uniques":["[-62]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "bombing"
