@@ -105,7 +105,7 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-	    "uniques":["consumes [Aluminum] <when attacking>"]
+	    "uniques":["consumes [Aluminum] per turns"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
