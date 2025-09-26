@@ -105,7 +105,7 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-	    "uniques":["Instantly consumes [+1] [Iron] <when attacking>"]
+	    "uniques":[]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
