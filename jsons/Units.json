@@ -233,7 +233,7 @@
 	    "rangedStrength": 30,
 		"cost": 570,
 	    "requiredResource":"Coal:2"
-        "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <when defending>"],
+        "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <vs [Tank] units> <when attacking>"],
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
