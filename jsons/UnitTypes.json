@@ -7,17 +7,24 @@
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[+300]% Strength <vs [Infantry] units> <when attacking>"]
+    "uniques":["[-1] Sight"]
   },
   {
     "name": "Flight",
     "movementType": "Land",
-    "uniques": ["[+275]% Strength <vs [Infantry] units> <when attacking>", "[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+    "uniques": ["[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
   },
   {
     "name": "Bomb",
     "movementType": "Land",
-    "uniques": ["[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+    "uniques": [
+      "[+1] Sight", 
+      "Can pass through impassable tiles", 
+      "All tiles cost 1 movement", 
+      "Can see over obstacles", 
+      "Ignores Zone of Control",
+      "[-80]% Strength <vs [Bomb] units> <when attacking>"
+    ]
   },
   {
     "name": "Canon",
@@ -28,7 +35,10 @@
   {
     "name": "MovingCanon",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"],
+    "uniques":[
+      "[-1] Sight", 
+      "[-200]% Strength <vs [Flight] units> <when attacking>",
+      "[-200]% Strength <vs [Bomb] units> <when attacking>"],
     "promotions": ["Indirect Fire"]
   },
   {
