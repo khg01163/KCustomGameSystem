@@ -22,23 +22,23 @@
   {
     "name": "Canon",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-100]% Strength <vs [Flight] units> <when attacking>","[-100]% Strength <vs [Bomb] units> <when attacking>"],
+    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"],
     "promotions": ["Indirect Fire"]
   },
   {
     "name": "MovingCanon",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-100]% Strength <vs [Flight] units> <when attacking>","[-100]% Strength <vs [Bomb] units> <when attacking>"],
+    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"],
     "promotions": ["Indirect Fire"]
   },
   {
     "name": "AntiCanon",
     "movementType": "Land",
-    "uniques":["[-1] Sight","[-100]% Strength <vs [Flight] units> <when attacking>","[-100]% Strength <vs [Bomb] units> <when attacking>"]
+    "uniques":["[-1] Sight","[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
   },
   {
     "name": "Tank",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-100]% Strength <vs [Flight] units> <when attacking>","[-100]% Strength <vs [Bomb] units> <when attacking>"]
+    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
   }
 ]
