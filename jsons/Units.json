@@ -183,6 +183,7 @@
 		"cost": 1300,
 	    "range": 5,
 	    "requiredResource": "Iron:2",
+	    "promotions": ["Indirect Fire"],
 		"requiredTech": "Dynamite",
 	    "uniques":["[-32]% Strength <when defending>"]
 		"attackSound": "cannon"
