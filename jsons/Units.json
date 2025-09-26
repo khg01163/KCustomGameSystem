@@ -117,7 +117,7 @@
 		"cost": 515,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
-	    "uniques":["consumes [Aluminum:2] <when attacking>"],
+	    "uniques":["consumes [Aluminum] <when attacking>"],
 		"attackSound": "machinegun"
 	},
 {
@@ -141,6 +141,7 @@
 		"cost": 380,
 		"requiredTech": "Dynamite",
 	    "requiredResource": "Horses",
+	    "uniques":["consumes [Aluminum] <when attacking>"],
 		"attackSound": "Machinegun"
 	},
   	{
@@ -153,6 +154,7 @@
 		"cost": 900,
 		"requiredResource": "Iron",
 		"requiredTech": "Dynamite",
+		"uniques":["consumes [Aluminum] <when attacking>"],
 		"attackSound": "Machinegun"
 	},
   {
@@ -166,6 +168,7 @@
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
+	    "uniques":["consumes [Aluminum]:2 <when attacking>"],
 		"attackSound": "artillery"
 	},
   {
