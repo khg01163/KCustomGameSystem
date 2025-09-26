@@ -105,7 +105,7 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-	    "uniques":["consumes [Aluminum] per turns"]
+	    "uniques":["Instantly consumes [+1] [Iron] <when attacking>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
@@ -117,7 +117,7 @@
 		"cost": 515,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
-	    "uniques":["consumes [Aluminum] <when attacking>"],
+	    "uniques":[],
 		"attackSound": "machinegun"
 	},
 {
@@ -141,7 +141,7 @@
 		"cost": 380,
 		"requiredTech": "Dynamite",
 	    "requiredResource": "Horses",
-	    "uniques":["consumes [Aluminum] <when attacking>"],
+	    "uniques":[],
 		"attackSound": "Machinegun"
 	},
   	{
@@ -154,7 +154,7 @@
 		"cost": 900,
 		"requiredResource": "Iron",
 		"requiredTech": "Dynamite",
-		"uniques":["consumes [Aluminum] <when attacking>"],
+		"uniques":[],
 		"attackSound": "Machinegun"
 	},
   {
@@ -168,7 +168,7 @@
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
-	    "uniques":["consumes [Aluminum]:2 <when attacking>"],
+	    "uniques":[],
 		"attackSound": "artillery"
 	},
   {
