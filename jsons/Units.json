@@ -64,7 +64,7 @@
     "name": "Great War Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 10,
+		"strength": 20,
 		"cost": 490,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
@@ -74,7 +74,7 @@
 		"name": "Infantry",//중대
 		"unitType": "Infantry",
 		"movement": 1,
-		"strength": 35,
+		"strength": 50,
 		"cost": 1700,
 	    "requiredResource":"Horses",
 		"requiredTech": "Dynamite",
@@ -86,11 +86,12 @@
 		"unitType": "MachineGun",
 		"range": 1,
 		"movement":1,
-		"strength": 75,
-		"rangedStrength": 4,
+		"strength": 8,
+		"rangedStrength": 8,
 		"cost": 200,
 		"requiredTech": "Dynamite",
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"uniques":["[+400]% Strength <vs [Infantry] units> <when defending>", "[+400]% Strength <vs [MachineGun] units> <when defending>", "[+400]% Strength <vs [Flight] units> <when defending>", "[+400]% Strength <vs [Bomb] units> <when defending>"]
 		// Upgrades to Bazooka in BNW
 	},
   {
@@ -99,88 +100,90 @@
 		"range": 2,
 		"movement": 1,
 	    "movementCooldown":2,
-		"strength": 75,
-		"rangedStrength": 5,
+		"strength": 12,
+		"rangedStrength": 12,
 		"cost": 285,
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-	    "uniques":[]
+		"uniques":["[+270]% Strength <vs [Infantry] units> <when defending>", "[+270]% Strength <vs [MachineGun] units> <when defending>", "[+270]% Strength <vs [Flight] units> <when defending>", "[+270]% Strength <vs [Bomb] units> <when defending>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
 		"unitType": "MachineGun",
 		"movement": 1,
-		"strength": 80,
-	    "rangedStrength": 8,
+		"strength": 16,
+	    "rangedStrength": 16,
 	    "range": 3,
 		"cost": 515,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
-	    "uniques":[],
+		"uniques":["[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
 	},
 {
 		"name": "Minuteman",//전차형 경기
 		"unitType": "MachineGun",
 		"movement": 3,
-		"strength": 50,
-	    "rangedStrength": 4,
+		"strength": 8,
+	    "rangedStrength": 8,
 	    "range": 1,
 		"cost": 285,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
+		"uniques":["[+150]% Strength <vs [Infantry] units> <when defending>", "[+150]% Strength <vs [MachineGun] units> <when defending>"]
 	},
   {
 		"name": "War Chariot",//전차형기
 		"unitType": "MachineGun",
 	    "range": 2,
 		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 5,
+		"strength": 12,
+		"rangedStrength": 12,
 		"cost": 380,
 		"requiredTech": "Dynamite",
 	    "requiredResource": "Horses",
-	    "uniques":[],
+		"uniques":["[+33]% Strength <vs [Infantry] units> <when defending>", "[+33]% Strength <vs [MachineGun] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   	{
 		"name": "Mechanized Infantry",//전차 중기
 		"unitType": "MachineGun",
 		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 9,
+		"strength": 16,
+		"rangedStrength": 16,
 		"range": 3,
 		"cost": 900,
 		"requiredResource": "Iron",
 		"requiredTech": "Dynamite",
-		"uniques":[],
+		"uniques":["[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   {
 		"name": "Artillery",//155
 		"unitType": "Canon",
 		"movement": 1,
-		"strength": 90,
-		"rangedStrength": 45,
+		"strength": 30,
+		"rangedStrength": 75,
 		"range": 10,
 		"cost": 4000,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
-	    "uniques":[],
+	    "uniques":["[-55]% Strength <when defending>"]
 		"attackSound": "artillery"
 	},
   {
 		"name": "Cannon",//105
 		"unitType": "Canon",
 		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 22,
+		"strength": 25,
+		"rangedStrength": 38,
 		"cost": 1830,
 	    "range": 5,
 	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-32]% Strength <when defending>"]
 		"attackSound": "cannon"
 	},
   {
@@ -188,8 +191,8 @@
 		"unitType": "MovingCanon",
 		"movement": 3,
 	    "range": 7,
-		"strength": 70,
-	    "rangedStrength":22,
+		"strength": 38,
+	    "rangedStrength":38,
 		"cost": 4970,
 	    "requiredResource": "Coal",
 		"requiredTech": "Dynamite",
@@ -199,9 +202,9 @@
 		"name": "Landship",//76미리
 		"unitType": "MovingCanon",
 		"movement": 5,
-		"strength": 45,
+		"strength": 27,
 	    "range": 7,
-	    "rangedStrength": 13,
+	    "rangedStrength": 27,
 		"cost": 1940,
 	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
@@ -211,22 +214,24 @@
      	"name": "Anti-Tank Gun",//90대전차
 		"unitType": "AntiCanon",
 		"movement": 1,
-		"strength": 70,
+		"strength": 30,
 	    "range": 3,
-	    "rangedStrength": 32,
+	    "rangedStrength": 53,
 		"cost": 1140,
 	    "requiredResource": "Iron",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
 		"name": "Musketman",//76대전차
 		"unitType": "AntiCanon",
 		"movement": 1,
-		"strength": 35,
+		"strength": 15,
 	    "range": 2,
-	    "rangedStrength": 16,
+	    "rangedStrength": 30,
 		"cost": 570,
+        "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <when defending>"],
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
@@ -234,8 +239,8 @@
 		"name": "Tank",//소형
 		"unitType": "Tank",
 		"movement": 6,
-		"strength": 30,
-		"rangedStrength": 14,
+		"strength": 75,
+		"rangedStrength": 28,
 		"range": 3,
 		"cost": 2860,
 		"requiredResource":"Iron",
@@ -246,9 +251,9 @@
 		"name": "Modern Armor",//전차
 		"unitType": "Tank",
 		"movement": 5,
-		"strength": 120,
+		"strength": 145,
 	    "range": 4,
-	    "rangedStrength": 30,
+	    "rangedStrength":50,
 		"cost": 7430,
 	    "requiredResource":"Iron:2",
 		"requiredTech": "Dynamite",
@@ -259,11 +264,12 @@
 		"unitType": "Flight",
 		"movement": 8,
 		"strength": 14,
-		"rangedStrength": 45,
+		"rangedStrength":70,
 		"range": 2,
 		"cost": 14300,
-	    "requiredResource":"Coal",
+	    "requiredResource":"Oil:2",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-80]% Strength <when defending>", "[-300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
@@ -271,11 +277,12 @@
 		"unitType": "Bomb",
 		"movement": 6,
 		"strength": 160,
-		"rangedStrength": 175,
+		"rangedStrength": 195,
 		"range": 0,
 		"cost": 37150,
-	    "requiredResource": "Coal:2",
+	    "requiredResource": "Oil:5",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-24]% Strength <when defending>"],
 		"attackSound": "bombing"
 	},
   {
@@ -283,10 +290,12 @@
 		"unitType": "Bomb",
 		"movement": 7,
 		"strength": 40,
-		"rangedStrength": 95,
+		"rangedStrength": 108,
 		"range": 0,
 		"cost": 18800,
+	    "requiredResource": "Oil",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-62]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "bombing"
 	},
   {
@@ -294,10 +303,12 @@
 		"unitType": "Flight",
 		"movement": 8,
 		"strength": 12,
-		"rangedStrength": 38,
+		"rangedStrength": 60,
 		"range": 2,
 		"cost": 4100,
+	    "requiredResource":"Oil",
 		"requiredTech": "Dynamite",
+	    "uniques":["[-80]% Strength <when defending>", "[-300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	}
 ]
