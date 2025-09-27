@@ -132,7 +132,7 @@
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	    "requiredResource":"Iron",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+150]% Strength <vs [Infantry] units> <when defending>", "[+150]% Strength <vs [MachineGun] units> <when defending>"]
+		"uniques":["Can move after attacking","[+200]% Strength <vs [Infantry] units> <when attacking>", "[+150]% Strength <vs [Infantry] units> <when defending>", "[+150]% Strength <vs [MachineGun] units> <when defending>"]
 	},
   {
 		"name": "War Chariot",//전차형기
@@ -144,7 +144,7 @@
 		"cost": 380,
 		"requiredTech": "Dynamite",
 	    "requiredResource": "Iron:2",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+33]% Strength <vs [Infantry] units> <when defending>", "[+33]% Strength <vs [MachineGun] units> <when defending>"],
+		"uniques":["Can move after attacking","[+200]% Strength <vs [Infantry] units> <when attacking>", "[+33]% Strength <vs [Infantry] units> <when defending>", "[+33]% Strength <vs [MachineGun] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   	{
@@ -157,7 +157,7 @@
 		"cost": 900,
 		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+400]% Strength <vs [Bomb] units> <when attacking>", "[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["Can move after attacking","[+200]% Strength <vs [Infantry] units> <when attacking>", "[+400]% Strength <vs [Bomb] units> <when attacking>", "[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   {
