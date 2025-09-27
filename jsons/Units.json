@@ -63,9 +63,9 @@
   {
     "name": "Great War Infantry",
 		"unitType": "Infantry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 20,
-		"cost": 490,
+		"cost": 350,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
 	    "uniques": ["[+500]% Strength <vs [MachineGun] units> <when attacking>", "[+500]% Strength <vs [Canon] units> <when attacking>"]
@@ -73,9 +73,9 @@
   {
 		"name": "Infantry",//중대
 		"unitType": "Infantry",
-		"movement": 2,
+		"movement": 3,
 		"strength": 50,
-		"cost": 1700,
+		"cost": 1200,
 	    "requiredResource":"Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
@@ -118,7 +118,7 @@
 		"cost": 515,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["[+200]% Strength <vs [Bomb] units> <when attacking>","[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
 	},
 {
@@ -157,7 +157,7 @@
 		"cost": 900,
 		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
-		"uniques":["[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["[+200]% Strength <vs [Bomb] units> <when attacking>", "[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   {
@@ -281,9 +281,9 @@
 		"movement": 8,
 		"strength": 160,
 		"rangedStrength": 195,
-		"range": 0,
+		"range": 1,
 		"cost": 12000,
-	    "requiredResource": "Oil:8",
+	    "requiredResource": "Oil:10",
 		"requiredTech": "Dynamite",
 	    "uniques":["[-24]% Strength <when defending>"],
 		"attackSound": "bombing"
@@ -294,7 +294,7 @@
 		"movement": 9,
 		"strength": 40,
 		"rangedStrength": 108,
-		"range": 0,
+		"range": 1,
 		"cost": 7000,
 	    "requiredResource": "Oil:5",
 		"requiredTech": "Dynamite",
