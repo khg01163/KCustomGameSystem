@@ -63,7 +63,7 @@
   {
     "name": "Great War Infantry",
 		"unitType": "Infantry",
-		"movement": 2,
+		"movement": 3,
 		"strength": 20,
 		"cost": 490,
 		"requiredTech": "Dynamite",
@@ -73,7 +73,7 @@
   {
 		"name": "Infantry",//중대
 		"unitType": "Infantry",
-		"movement": 1,
+		"movement": 2,
 		"strength": 50,
 		"cost": 1700,
 	    "requiredResource":"Horses",
@@ -85,7 +85,7 @@
 		"name": "Machine Gun",//경기
 		"unitType": "MachineGun",
 		"range": 1,
-		"movement":1,
+		"movement":2,
 		"strength": 8,
 		"rangedStrength": 8,
 		"cost": 200,
@@ -98,7 +98,7 @@
         "name": "Gatling Gun",//기
 		"unitType": "MachineGun",
 		"range": 2,
-		"movement": 1,
+		"movement": 2,
 	    "movementCooldown":2,
 		"strength": 12,
 		"rangedStrength": 12,
@@ -124,7 +124,7 @@
 {
 		"name": "Minuteman",//전차형 경기
 		"unitType": "MachineGun",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 	    "rangedStrength": 8,
 	    "range": 1,
@@ -138,7 +138,7 @@
 		"name": "War Chariot",//전차형기
 		"unitType": "MachineGun",
 	    "range": 2,
-		"movement": 2,
+		"movement": 3,
 		"strength": 12,
 		"rangedStrength": 12,
 		"cost": 380,
@@ -150,7 +150,7 @@
   	{
 		"name": "Mechanized Infantry",//전차 중기
 		"unitType": "MachineGun",
-		"movement": 2,
+		"movement": 3,
 		"strength": 16,
 		"rangedStrength": 16,
 		"range": 3,
@@ -177,7 +177,7 @@
   {
 		"name": "Cannon",//105
 		"unitType": "Canon",
-		"movement": 1,
+		"movement": 2,
 		"strength": 25,
 		"rangedStrength": 38,
 		"cost": 1300,
@@ -191,7 +191,7 @@
   {
 		"name": "Panzer",//105미리
 		"unitType": "MovingCanon",
-		"movement": 3,
+		"movement": 5,
 	    "range": 7,
 		"strength": 38,
 	    "rangedStrength":38,
@@ -203,7 +203,7 @@
   {
 		"name": "Landship",//76미리
 		"unitType": "MovingCanon",
-		"movement": 5,
+		"movement": 6,
 		"strength": 27,
 	    "range": 7,
 	    "rangedStrength": 27,
@@ -215,7 +215,7 @@
   {
      	"name": "Anti-Tank Gun",//90대전차
 		"unitType": "AntiCanon",
-		"movement": 1,
+		"movement": 2,
 		"strength": 30,
 	    "range": 3,
 	    "rangedStrength": 53,
@@ -228,7 +228,7 @@
   {
 		"name": "Musketman",//76대전차
 		"unitType": "AntiCanon",
-		"movement": 1,
+		"movement": 2,
 		"strength": 15,
 	    "range": 2,
 	    "rangedStrength": 30,
@@ -241,7 +241,7 @@
 	{
 		"name": "Tank",//소형
 		"unitType": "Tank",
-		"movement": 6,
+		"movement": 8,
 		"strength": 75,
 		"rangedStrength": 28,
 		"range": 3,
@@ -253,7 +253,7 @@
   {
 		"name": "Modern Armor",//전차
 		"unitType": "Tank",
-		"movement": 5,
+		"movement": 6,
 		"strength": 145,
 	    "range": 4,
 	    "rangedStrength":50,
@@ -265,7 +265,7 @@
   {
 		"name": "Fighter",//제트
 		"unitType": "Flight",
-		"movement": 8,
+		"movement": 12,
 		"strength": 14,
 		"rangedStrength":70,
 		"range": 2,
@@ -278,7 +278,7 @@
   {
 		"name": "Bomber",//전폭
 		"unitType": "Bomb",
-		"movement": 6,
+		"movement": 8,
 		"strength": 160,
 		"rangedStrength": 195,
 		"range": 0,
@@ -291,7 +291,7 @@
   {
 		"name": "Great War Bomber",//중폭
 		"unitType": "Bomb",
-		"movement": 7,
+		"movement": 9,
 		"strength": 40,
 		"rangedStrength": 108,
 		"range": 0,
@@ -304,7 +304,7 @@
   {
 		"name": "Triplane",//그냥 전투기
 		"unitType": "Flight",
-		"movement": 8,
+		"movement": 10,
 		"strength": 12,
 		"rangedStrength": 60,
 		"range": 2,
