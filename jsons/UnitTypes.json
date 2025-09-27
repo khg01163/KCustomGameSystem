@@ -2,23 +2,24 @@
   {
     "name": "Infantry",
     "movementType": "Land",
-    "uniques":["[-1] Sight"]
+    "uniques":["[-1] Sight", "[+225]% Strength <vs cities>"]
   },
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":["[-1] Sight"]
+    "uniques":["[-1] Sight", "[+225]% Strength <vs cities>"]
   },
   {
     "name": "Flight",
     "movementType": "Land",
-    "uniques": ["[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+    "uniques": ["[+225]% Strength <vs cities>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
   },
   {
     "name": "Bomb",
     "movementType": "Land",
     "uniques": [
-      "[+1] Sight", 
+      "[+1] Sight",
+      "[+225]% Strength <vs cities>",
       "Can pass through impassable tiles", 
       "All tiles cost 1 movement", 
       "Can see over obstacles", 
@@ -29,14 +30,15 @@
   {
     "name": "Canon",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"],
+    "uniques":["[+225]% Strength <vs cities>", "[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"],
     "promotions": ["Indirect Fire"]
   },
   {
     "name": "MovingCanon",
     "movementType": "Land",
     "uniques":[
-      "[-1] Sight", 
+      "[-1] Sight",
+      "[+225]% Strength <vs cities>",
       "[-200]% Strength <vs [Flight] units> <when attacking>",
       "[-200]% Strength <vs [Bomb] units> <when attacking>"],
     "promotions": ["Indirect Fire"]
@@ -44,11 +46,11 @@
   {
     "name": "AntiCanon",
     "movementType": "Land",
-    "uniques":["[-1] Sight","[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
+    "uniques":["[+225]% Strength <vs cities>", "[-1] Sight","[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
   },
   {
     "name": "Tank",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
+    "uniques":["[+225]% Strength <vs cities>", "[-1] Sight", "[-200]% Strength <vs [Flight] units> <when attacking>","[-200]% Strength <vs [Bomb] units> <when attacking>"]
   }
 ]
