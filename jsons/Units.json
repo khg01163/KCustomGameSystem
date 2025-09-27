@@ -118,7 +118,7 @@
 		"cost": 515,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+200]% Strength <vs [Bomb] units> <when attacking>","[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+400]% Strength <vs [Bomb] units> <when attacking>","[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>", "[+200]% Strength <vs [Flight] units> <when defending>", "[+200]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
 	},
 {
@@ -157,7 +157,7 @@
 		"cost": 900,
 		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
-		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+200]% Strength <vs [Bomb] units> <when attacking>", "[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["[+200]% Strength <vs [Infantry] units> <when attacking>", "[+400]% Strength <vs [Bomb] units> <when attacking>", "[+25]% Strength <vs [Infantry] units> <when defending>", "[+25]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "Machinegun"
 	},
   {
