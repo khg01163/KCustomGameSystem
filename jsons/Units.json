@@ -68,7 +68,7 @@
 		"cost": 350,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
-	    "uniques": ["[+500]% Strength <vs [MachineGun] units> <when attacking>", "[+500]% Strength <vs [Canon] units> <when attacking>"]
+	    "uniques": ["[+33]% evasion", "[+500]% Strength <vs [MachineGun] units> <when attacking>", "[+500]% Strength <vs [Canon] units> <when attacking>"]
 	},
   {
 		"name": "Infantry",//중대
@@ -272,7 +272,7 @@
 		"cost": 3500,
 	    "requiredResource":"Oil:5",
 		"requiredTech": "Dynamite",
-	    "uniques":["[+170]% Strength <vs [Bomb] units> <when defending>", "[-80]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
+	    "uniques":["[+90]% evasion", "[-80]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
@@ -311,7 +311,7 @@
 		"cost": 1800,
 	    "requiredResource":"Oil:3",
 		"requiredTech": "Dynamite",
-	    "uniques":["[+70]% Strength <vs [Bomb] units> <when defending>","[-80]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
+	    "uniques":["[+90]% evasion","[-80]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	}
 ]
