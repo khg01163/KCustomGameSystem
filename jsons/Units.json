@@ -171,7 +171,7 @@
 	    "requiredResource": "Aluminum:3",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
-	    "uniques":["Nuclear weapon of Strength [1]", "Blast radius [2]", "[-55]% Strength <when defending>"]
+	    "uniques":["Nuclear weapon of Strength [1]", "Blast radius [1]", "[-55]% Strength <when defending>"]
 		"attackSound": "artillery"
 	},
   {
