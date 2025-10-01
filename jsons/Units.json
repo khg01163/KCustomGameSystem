@@ -63,19 +63,26 @@
   {
     "name": "Great War Infantry",
 		"unitType": "Infantry",
-		"movement": 4,
+		"movement": 3,
 		"strength": 20,
 		"cost": 350,
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
-	    "uniques": ["[+50]% evasion", "[+500]% Strength <vs [MachineGun] units> <when attacking>", "[+500]% Strength <vs [Canon] units> <when attacking>"]
+	    "uniques": [
+			"Can build [Fort] improvements on tiles", 
+			"[+30]% evasion", 
+			"[+500]% Strength <vs [MachineGun] units> <when attacking>", 
+			"[+500]% Strength <vs [Canon] units> <when attacking>",
+			"[+500]% Strength <vs [Canon] units> <when defending> <when fighting in [Fort] tiles>",
+			"[+300]% Strength <vs [MachineGun] units> <when defending> <when fighting in [Fort] tiles>"
+		]
 	},
   {
 		"name": "Infantry",//중대
 		"unitType": "Infantry",
-		"movement": 3,
+		"movement": 2,
 		"strength": 50,
-		"cost": 800,
+		"cost": 800000,
 	    "requiredResource":"Horses",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
