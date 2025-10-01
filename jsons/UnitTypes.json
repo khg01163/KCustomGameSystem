@@ -7,7 +7,7 @@
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[+225]% Strength <vs cities>"]
+    "uniques":["CannotMoveAfterAttacking", "NoMovementCostToAttack","[-1] Sight", "[+225]% Strength <vs cities>"]
   },
   {
     "name": "Flight",
