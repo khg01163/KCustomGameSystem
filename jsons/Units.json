@@ -239,7 +239,7 @@
 		"cost": 700,
 	    "requiredResource": "Coal:4",
 		"requiredTech": "Dynamite",
-	    "uniques":["[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>"],
+	    "uniques":["[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>", "[+400]% Strength <vs [MovingCanon] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
@@ -251,7 +251,7 @@
 	    "rangedStrength": 30,
 		"cost": 420,
 	    "requiredResource":"Coal:2"
-        "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <vs [Tank] units> <when attacking>"],
+        "uniques":["[-50]% Strength <when defending>", "[+300]% Strength <vs [Tank] units> <when attacking>", "[+300]% Strength <vs [MovingCanon] units> <when attacking>"],
 		"requiredTech": "Dynamite",
 		"attackSound": "shot"
 	},
