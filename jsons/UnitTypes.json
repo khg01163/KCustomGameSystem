@@ -5,7 +5,8 @@
     "uniques":[
       "[-1] Sight", 
       "[+225]% Strength <vs cities>",
-      "[-100]% Strength <vs [Tank] units> <when attacking>"
+      "[-100]% Strength <vs [Tank] units> <when attacking>",
+      "[-100]% Strength <vs [MovingCanon] units> <when attacking>"
     ]
   },
   {
@@ -15,7 +16,8 @@
       "NoMovementCostToAttack",
       "[-1] Sight", 
       "[+225]% Strength <vs cities>",
-      "[-100]% Strength <vs [Tank] units> <when attacking>"
+      "[-100]% Strength <vs [Tank] units> <when attacking>",
+      "[-100]% Strength <vs [MovingCanon] units> <when attacking>"
     ]
   },
   {
