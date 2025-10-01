@@ -106,7 +106,7 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-		"uniques":["[1] additional attacks per turn", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
+		"uniques":["NoMovementCostToAttack","[1] additional attacks per turn", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
@@ -118,7 +118,7 @@
 		"cost": 515,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"uniques":["[2] additional attacks per turn", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>","[+430]% Strength <vs [Infantry] units> <when defending>", "[+430]% Strength <vs [MachineGun] units> <when defending>", "[+430]% Strength <vs [Flight] units> <when defending>", "[+430]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["NoMovementCostToAttack","[2] additional attacks per turn", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>","[+430]% Strength <vs [Infantry] units> <when defending>", "[+430]% Strength <vs [MachineGun] units> <when defending>", "[+430]% Strength <vs [Flight] units> <when defending>", "[+430]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
 	},
 {
