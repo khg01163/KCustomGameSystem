@@ -2,7 +2,11 @@
   {
     "name": "Infantry",
     "movementType": "Land",
-    "uniques":["[-1] Sight", "[+225]% Strength <vs cities>"]
+    "uniques":[
+      "[-1] Sight", 
+      "[+225]% Strength <vs cities>",
+      "[-100]% Strength <vs [Tank] units> <when attacking>"
+    ]
   },
   {
     "name": "MachineGun",
@@ -11,6 +15,7 @@
       "NoMovementCostToAttack",
       "[-1] Sight", 
       "[+225]% Strength <vs cities>",
+      "[-100]% Strength <vs [Tank] units> <when attacking>"
     ]
   },
   {
