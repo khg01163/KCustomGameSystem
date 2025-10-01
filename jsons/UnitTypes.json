@@ -7,12 +7,27 @@
   {
     "name": "MachineGun",
     "movementType": "Land",
-    "uniques":["CannotMoveAfterAttacking", "NoMovementCostToAttack","[-1] Sight", "[+225]% Strength <vs cities>"]
+    "uniques":[
+      "CannotMoveAfterAttacking", 
+      "NoMovementCostToAttack",
+      "[-1] Sight", 
+      "[+225]% Strength <vs cities>",
+      "[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>"
+    ]
   },
   {
     "name": "Flight",
     "movementType": "Land",
-    "uniques": ["Can move after attacking","[+225]% Strength <vs cities>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>","[+1] Sight", "Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control"]
+    "uniques": [
+      "Can move after attacking",
+      "[+225]% Strength <vs cities>", 
+      "[+300]% Strength <vs [Infantry] units> <when defending>",
+      "[+1] Sight", 
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Can see over obstacles", 
+      "Ignores Zone of Control"
+    ]
   },
   {
     "name": "Bomb",
