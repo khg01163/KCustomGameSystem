@@ -29,7 +29,8 @@
       "Can pass through impassable tiles",
       "All tiles cost 1 movement",
       "Can see over obstacles", 
-      "Ignores Zone of Control"
+      "Ignores Zone of Control",
+      "[-100]% Strength <vs [Tank] units> <when attacking>"
     ]
   },
   {
