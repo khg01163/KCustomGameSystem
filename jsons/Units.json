@@ -92,7 +92,7 @@
 		"name": "Machine Gun",//경기
 		"unitType": "MachineGun",
 		"range": 1,
-		"movement":2,
+		"movement":3,
 		"strength": 10,
 		"rangedStrength": 10,
 		"cost": 200,
@@ -105,7 +105,7 @@
         "name": "Gatling Gun",//기
 		"unitType": "MachineGun",
 		"range": 2,
-		"movement": 2,
+		"movement": 3,
 	    "movementCooldown":2,
 		"strength": 10,
 		"rangedStrength": 10,
@@ -113,19 +113,19 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-		"uniques":["NoMovementCostToAttack","[1] additional attacks per turn", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
+		"uniques":["NoMovementCostToAttack","[1] additional attacks per turn <when fighting in [Fort] tiles", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
 		"unitType": "MachineGun",
-		"movement": 1,
+		"movement": 3,
 		"strength": 14,
 	    "rangedStrength": 14,
 	    "range": 3,
 		"cost": 515,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"uniques":["NoMovementCostToAttack","[2] additional attacks per turn", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>","[+430]% Strength <vs [Infantry] units> <when defending>", "[+430]% Strength <vs [MachineGun] units> <when defending>", "[+430]% Strength <vs [Flight] units> <when defending>", "[+430]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":["NoMovementCostToAttack","[2] additional attacks per turn <when fighting in [Fort] tiles", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>","[+430]% Strength <vs [Infantry] units> <when defending>", "[+430]% Strength <vs [MachineGun] units> <when defending>", "[+430]% Strength <vs [Flight] units> <when defending>", "[+430]% Strength <vs [Bomb] units> <when defending>"],
 		"attackSound": "machinegun"
 	},
 {
