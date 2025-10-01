@@ -8,11 +8,9 @@
     "name": "MachineGun",
     "movementType": "Land",
     "uniques":[
-      "CannotMoveAfterAttacking", 
       "NoMovementCostToAttack",
       "[-1] Sight", 
       "[+225]% Strength <vs cities>",
-      "[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>"
     ]
   },
   {
