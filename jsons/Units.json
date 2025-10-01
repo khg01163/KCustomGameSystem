@@ -98,7 +98,7 @@
 		"cost": 200,
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-		"uniques":["[+150]% Strength <vs [Infantry] units> <when attacking>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [MachineGun] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>", "[+300]% Strength <vs [Bomb] units> <when defending>"]
+		"uniques":["[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>","[+150]% Strength <vs [Infantry] units> <when attacking>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [MachineGun] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>", "[+300]% Strength <vs [Bomb] units> <when defending>"]
 		// Upgrades to Bazooka in BNW
 	},
   {
@@ -113,7 +113,7 @@
 	    "requiredResource":"Iron",
 		"requiredTech": "Dynamite",
 		"attackSound": "machinegun",
-		"uniques":["NoMovementCostToAttack","[1] additional attacks per turn <when fighting in [Fort] tiles", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
+		"uniques":["[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>", "NoMovementCostToAttack","[1] additional attacks per turn <when fighting in [Fort] tiles", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
@@ -125,7 +125,17 @@
 		"cost": 515,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"uniques":["NoMovementCostToAttack","[2] additional attacks per turn <when fighting in [Fort] tiles", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>","[+430]% Strength <vs [Infantry] units> <when defending>", "[+430]% Strength <vs [MachineGun] units> <when defending>", "[+430]% Strength <vs [Flight] units> <when defending>", "[+430]% Strength <vs [Bomb] units> <when defending>"],
+		"uniques":[
+			"[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>", 
+			"NoMovementCostToAttack",
+			"[2] additional attacks per turn <when fighting in [Fort] tiles", 
+			"[+200]% Strength <vs [Infantry] units> <when attacking>", 
+			"[+250]% Strength <vs [Bomb] units> <when attacking>",
+			"[+430]% Strength <vs [Infantry] units> <when defending>", 
+			"[+430]% Strength <vs [MachineGun] units> <when defending>", 
+			"[+430]% Strength <vs [Flight] units> <when defending>", 
+			"[+430]% Strength <vs [Bomb] units> <when defending>"
+		],
 		"attackSound": "machinegun"
 	},
 {
