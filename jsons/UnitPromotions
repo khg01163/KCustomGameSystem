@@ -1,0 +1,9 @@
+[
+    {
+      "name": "Accuracy I",
+	  	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		  "unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+      "column": 1,
+      "row": 1
+    }
+]
