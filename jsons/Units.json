@@ -172,6 +172,8 @@
 		"rangedStrength": 14,
 		"range": 3,
 		"cost": 700,
+		"MaxAmmo": 30,
+		"ammo": 30,
 		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
 		"uniques":["[2] additional attacks per turn", "Can move after attacking","[+200]% Strength <vs [Infantry] units> <when attacking>", "[+250]% Strength <vs [Bomb] units> <when attacking>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [MachineGun] units> <when defending>", "[+25]% Strength <vs [Flight] units> <when defending>", "[+25]% Strength <vs [Bomb] units> <when defending>"],
