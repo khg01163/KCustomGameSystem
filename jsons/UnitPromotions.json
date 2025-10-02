@@ -19,7 +19,7 @@
 	{
 		"name": "Hiding",
 		"uniques": [
-			"[+50]% Strength <vs [MachineGun] units> <when defending> <when fighting in [Hill] tiles>"
+			"[+50]% Strength <when defending> <when fighting in [Hill] tiles>"
 		],
 		"unitTypes": ["Infantry"],
         "column": 3,
