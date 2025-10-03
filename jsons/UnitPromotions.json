@@ -1,7 +1,7 @@
 [
     {
       "name": "Evasion",
-      "replaces": "Heal Instantly",
+      "replaces": "Accuracy I",
 	    "uniques": ["[+25]% evasion"],
 	    "unitTypes": ["Infantry"],
         "column": 1,
