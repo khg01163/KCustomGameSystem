@@ -172,7 +172,7 @@
 		"rangedStrength": 14,
 		"range": 3,
 		"cost": 700,
-		"MaxAmmo": 30,
+		"maxAmmo": 30,
 		"ammo": 30,
 		"requiredResource": "Iron:3",
 		"requiredTech": "Dynamite",
