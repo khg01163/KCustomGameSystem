@@ -1,0 +1,61 @@
+[
+    {
+      "name": "Evasion",
+      "replaces": "Heal Instantly",
+	    "uniques": ["[+25]% evasion"],
+	    "unitTypes": ["Infantry"],
+        "column": 1,
+        "row": 1
+    },
+	{
+		"name": "Grenade",
+    "replaces": "Barrage I",
+		"uniques": [
+		  	"[+150]% Strength <vs [Tank] units> <when attacking>",
+		    "[+150]% Strength <vs [MovingCanon] units> <when attacking>",
+        "[+20]% Strength <vs [Infantry] units> <when attacking>"
+		],
+		"unitTypes": ["Infantry"],
+        "column": 2,
+        "row": 1
+	},
+	{
+		"name": "Hiding",
+    "replaces": "Volley",
+		"uniques": [
+			"[+50]% Strength <when defending>"
+		],
+		"unitTypes": ["Infantry"],
+        "column": 3,
+        "row": 1
+	},
+    {
+		"name": "Mortar",
+    "replaces": "Accuracy II",
+		"prerequisites": ["Evasion","Grenade","Hiding"],
+		"uniques": ["[+70]% Strength <vs [Infantry] units> <when attacking>"],
+		"unitTypes": ["Infantry"],
+        "column": 1,
+        "row": 2
+	},
+	{
+		"name": "MachineGun",
+    "replaces": "Barrage II",
+		"prerequisites": ["Evasion","Grenade","Hiding"],
+		"uniques": ["[+70]% Strength <vs [Infantry] units> <when defending>"],
+		"unitTypes": ["Infantry"],
+        "column": 2,
+        "row": 2
+	},
+	{
+		"name": "AntiTankGun",
+		"prerequisites": ["Evasion","Grenade","Hiding"],
+		//"uniques": [
+        "[+300]% Strength <vs [Tank] units> <when attacking>",
+		    "[+300]% Strength <vs [MovingCanon] units> <when attacking>"
+	],
+		"unitTypes": ["Infantry"],
+        "column": 3,
+        "row": 2
+	}
+]
