@@ -50,10 +50,10 @@
 	{
 		"name": "AntiTankGun",
 		"prerequisites": ["Evasion","Grenade","Hiding"],
-		//"uniques": [
-        "[+300]% Strength <vs [Tank] units> <when attacking>",
+		"uniques": [
+            "[+300]% Strength <vs [Tank] units> <when attacking>",
 		    "[+300]% Strength <vs [MovingCanon] units> <when attacking>"
-	],
+	    ],
 		"unitTypes": ["Infantry"],
         "column": 3,
         "row": 2
