@@ -87,6 +87,8 @@
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
 	    "uniques": [
+			"[+35]% evasion",
+			"[+100]% Strength <when defending> <when fighting in [Hill] tiles>", 
 			"[+100]% Strength <vs [MovingCanon] units> <when attacking>", 
 			"[+500]% Strength <vs [Canon] units> <when attacking>", 
 			"[+500]% Strength <vs [MachineGun] units> <when attacking>",
