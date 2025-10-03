@@ -81,12 +81,17 @@
 		"name": "Infantry",//중대
 		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 50,
-		"cost": 800000,
-	    "requiredResource":"Horses",
+		"strength": 30,
+		"cost": 1000,
+	    "requiredResource":"Horses:3",
 		"requiredTech": "Dynamite",
 		"attackSound": "shot",
-	    "uniques": ["[+100]% Strength <vs [MovingCanon] units> <when attacking>", "[+500]% Strength <vs [Canon] units> <when attacking>", "[+500]% Strength <vs [MachineGun] units> <when attacking>"]
+	    "uniques": [
+			"[+100]% Strength <vs [MovingCanon] units> <when attacking>", 
+			"[+500]% Strength <vs [Canon] units> <when attacking>", 
+			"[+500]% Strength <vs [MachineGun] units> <when attacking>",
+			"[+100]% Strength <vs [Tank] units> <when attacking>", 
+		]
 	},
   	{
 		"name": "Machine Gun",//경기
