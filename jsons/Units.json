@@ -197,7 +197,7 @@
 	    "requiredResource": "Aluminum:3",
 		"requiredTech": "Dynamite",
 		"promotions": ["Indirect Fire"],
-	    "uniques":["Shell weapon", "Blast radius [1]", "[-55]% Strength <when defending>"]
+	    "uniques":["Cannot enter [Hill] tiles", "Shell weapon", "Blast radius [1]", "[-55]% Strength <when defending>"]
 		"attackSound": "artillery"
 	},
   {
@@ -248,7 +248,7 @@
 		"cost": 700,
 	    "requiredResource": "Coal:3",
 		"requiredTech": "Dynamite",
-	    "uniques":["[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>", "[+400]% Strength <vs [MovingCanon] units> <when attacking>"],
+	    "uniques":["Cannot enter [mountain] tiles", "[-41]% Strength <when defending>", "[+400]% Strength <vs [Tank] units> <when attacking>", "[+400]% Strength <vs [MovingCanon] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
