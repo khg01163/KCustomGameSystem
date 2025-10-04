@@ -96,7 +96,7 @@
 		]
 	},
   	{
-		"name": "Machine Gun",//경기
+		"name": "Machine Gun",//기
 		"unitType": "MachineGun",
 		"range": 1,
 		"movement":3,
@@ -107,20 +107,6 @@
 		"attackSound": "machinegun",
 		"uniques":["[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>","[+150]% Strength <vs [Infantry] units> <when attacking>", "[+300]% Strength <vs [Infantry] units> <when defending>", "[+300]% Strength <vs [MachineGun] units> <when defending>", "[+300]% Strength <vs [Flight] units> <when defending>", "[+300]% Strength <vs [Bomb] units> <when defending>"]
 		// Upgrades to Bazooka in BNW
-	},
-  {
-        "name": "Gatling Gun",//기
-		"unitType": "MachineGun",
-		"range": 2,
-		"movement": 3,
-	    "movementCooldown":2,
-		"strength": 10,
-		"rangedStrength": 10,
-		"cost": 285,
-	    "requiredResource":"Iron",
-		"requiredTech": "Dynamite",
-		"attackSound": "machinegun",
-		"uniques":["[+500]% Strength <vs [Infantry] units> <when defending> <when fighting in [Fort] tiles>", "NoMovementCostToAttack","[1] additional attacks per turn <when fighting in [Fort] tiles>", "[+150]% Strength <vs [Infantry] units> <when attacking>", "[+450]% Strength <vs [Infantry] units> <when defending>", "[+450]% Strength <vs [MachineGun] units> <when defending>", "[+450]% Strength <vs [Flight] units> <when defending>", "[+450]% Strength <vs [Bomb] units> <when defending>"]
 	},
   {
 		"name": "Anti-Aircraft Gun",//중기
@@ -146,7 +132,7 @@
 		"attackSound": "machinegun"
 	},
 {
-		"name": "Minuteman",//전차형 경기
+		"name": "Minuteman",//전차형 기
 		"unitType": "MachineGun",
 		"movement": 3,
 		"strength": 10,
@@ -157,19 +143,6 @@
 		"attackSound": "shot"
 	    "requiredResource":"Iron",
 		"uniques":["Can move after attacking","[+150]% Strength <vs [Infantry] units> <when attacking>", "[+200]% Strength <vs [Infantry] units> <when defending>", "[+200]% Strength <vs [MachineGun] units> <when defending>"]
-	},
-  {
-		"name": "War Chariot",//전차형기
-		"unitType": "MachineGun",
-	    "range": 2,
-		"movement": 3,
-		"strength": 10,
-		"rangedStrength": 10,
-		"cost": 380,
-		"requiredTech": "Dynamite",
-	    "requiredResource": "Iron:2",
-		"uniques":["[1] additional attacks per turn", "Can move after attacking","[+150]% Strength <vs [Infantry] units> <when attacking>", "[+350]% Strength <vs [Infantry] units> <when defending>", "[+350]% Strength <vs [MachineGun] units> <when defending>"],
-		"attackSound": "Machinegun"
 	},
   	{
 		"name": "Mechanized Infantry",//전차 중기
@@ -267,7 +240,7 @@
 	{
 		"name": "Tank",//소형
 		"unitType": "Tank",
-		"movement": 8,
+		"movement": 4,
 		"strength": 75,
 		"rangedStrength": 28,
 		"range": 3,
@@ -279,12 +252,12 @@
   {
 		"name": "Modern Armor",//전차
 		"unitType": "Tank",
-		"movement": 6,
+		"movement": 3,
 		"strength": 145,
 	    "range": 4,
 	    "rangedStrength":50,
 		"cost": 2200,
-	    "requiredResource":"Aluminum:5",
+	    "requiredResource":"Aluminum:4",
 		"requiredTech": "Dynamite",
 		"attackSound": "tankshot"
 	},
@@ -302,29 +275,29 @@
 		"attackSound": "machinegun"
 	},
   {
-		"name": "Bomber",//전폭
-		"unitType": "Bomb",
-		"movement": 6,
-		"strength": 160,
-		"rangedStrength": 195,
-		"range": 1,
-		"cost": 6000,
-	    "requiredResource": "Oil:10",
-		"requiredTech": "Dynamite",
-	    "uniques":["[-33]% Strength <vs [MachineGun] units> <when defending>","[-24]% Strength <when defending>"],
-		"attackSound": "bombing"
-	},
-  {
-		"name": "Great War Bomber",//중폭
+		"name": "Bomber",//중폭
 		"unitType": "Bomb",
 		"movement": 8,
 		"strength": 40,
 		"rangedStrength": 108,
 		"range": 1,
 		"cost": 4000,
-	    "requiredResource": "Oil:5",
+	    "requiredResource": "Oil:7",
 		"requiredTech": "Dynamite",
-	    "uniques":["[-62]% Strength <vs [Bomb] units> <when defending>"],
+	    "uniques":["[-62]% Strength <when defending>"],
+		"attackSound": "bombing"
+	},
+  {
+		"name": "Great War Bomber",//공격기
+		"unitType": "Bomb",
+		"movement": 8,
+		"strength": 20,
+		"rangedStrength": 80,
+		"range": 1,
+		"cost": 1500,
+	    "requiredResource": "Oil:3",
+		"requiredTech": "Dynamite",
+	    "uniques":["[+55]% evasion", "[-75]% Strength <when defending>"],
 		"attackSound": "bombing"
 	},
   {
