@@ -152,8 +152,7 @@
 		"cost": 285,
 	    "requiredResource": "Iron:2",
 		"requiredTech": "Dynamite",
-		"attackSound": "shot"
-	    "requiredResource":"Iron",
+		"attackSound": "shot",
 		"uniques":[
 			"[2] additional attacks per turn",
 			"Can move after attacking",
