@@ -311,7 +311,7 @@
 		"cost": 3500,
 	    "requiredResource":"Oil:5",
 		"requiredTech": "Dynamite",
-	    "uniques":["[+80]% evasion", "[-85]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
+	    "uniques":["[+70]% evasion", "[-85]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	},
   {
@@ -324,7 +324,7 @@
 		"cost": 4000,
 	    "requiredResource": "Oil:7",
 		"requiredTech": "Dynamite",
-	    "uniques":["[-62]% Strength <when defending>"],
+	    "uniques":["[+65]% evasion", "[-62]% Strength <when defending>"],
 		"attackSound": "bombing"
 	},
   {
@@ -350,7 +350,7 @@
 		"cost": 1800,
 	    "requiredResource":"Oil:3",
 		"requiredTech": "Dynamite",
-	    "uniques":["[+70]% evasion","[-85]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
+	    "uniques":["[+60]% evasion","[-85]% Strength <when defending>", "[+300]% Strength <vs [Bomb] units> <when attacking>"],
 		"attackSound": "machinegun"
 	}
 ]
