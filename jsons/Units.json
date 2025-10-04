@@ -150,7 +150,8 @@
 			"[+250]% Strength <vs [Bomb] units> <when attacking>",
 			"[+430]% Strength <vs [Infantry] units> <when defending>", 
 			"[+430]% Strength <vs [MachineGun] units> <when defending>", 
-			"[+430]% Strength <vs [Flight] units> <when defending>", 
+			"[+430]% Strength <vs [Flight] units> <when defending>",
+			"[+200]% Strength <vs [Flight] units> <when attacking>",
 			"[+430]% Strength <vs [Bomb] units> <when defending>"
 		],
 		"attackSound": "machinegun"
