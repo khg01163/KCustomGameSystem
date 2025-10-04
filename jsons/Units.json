@@ -11,6 +11,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Dynamite",
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Paratrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
